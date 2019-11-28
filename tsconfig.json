@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "module": "esnext",
+    "jsxFactory": "h",
+    "sourceMap": true,
+    "baseUrl": "src",
+    "paths": {
+      "@store/*": ["store/*"]
+    }
+  }
+}

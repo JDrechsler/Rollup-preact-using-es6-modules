@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Preact instant</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" crossorigin="anonymous" />
+
+    <!-- Preloads -->
+    <link rel="preload" href="src/styles/globalStyles.css" as="style" crossorigin="anonymous" />
+    <!-- Module Preloads -->
+    <link rel="modulepreload" href="build/preactBundle.js" />
+    <link rel="modulepreload" href="build/main.js" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./build/main.js"></script>
+  </body>
+</html>
