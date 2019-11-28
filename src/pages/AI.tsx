@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { customStore } from './../store/customStore.js';
+import { customStore } from '@store/customStore';
 import { view } from 'z-preact-easy-state';
 
 const aiLibUrls: string[] = ['https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js', 'https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js'];

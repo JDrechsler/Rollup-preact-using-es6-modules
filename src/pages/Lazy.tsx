@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { customStore } from './../store/customStore.js';
+import { customStore } from '@store/customStore';
 import { view } from 'z-preact-easy-state';
 
 class LazyPage extends Component {

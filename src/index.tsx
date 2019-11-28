@@ -1,13 +1,14 @@
 import { h, render, Component } from 'preact';
 import Router, { Route } from 'preact-router';
 import { Suspense, lazy } from 'preact/compat';
-import { Home } from './pages/Home.js';
-import { NavBar } from './components/navbar.js';
 
-const LazyPage = lazy(() => import('./pages/Lazy.js'));
-const LazyPizzaPage = lazy(() => import('./pages/Pizza.js'));
-const LazyTestPage = lazy(() => import('./pages/Test.js'));
-const LazyAIPage = lazy(() => import('./pages/AI.js'));
+import { Home } from '@pages/Home';
+import { NavBar } from '@components/NavBar';
+
+const LazyPage = lazy(() => import('@pages/Lazy'));
+const LazyPizzaPage = lazy(() => import('@pages/Pizza'));
+const LazyTestPage = lazy(() => import('@pages/Test'));
+const LazyAIPage = lazy(() => import('@pages/AI'));
 const NotFound = () => (
   <section>
     <h2>Not Found</h2>

@@ -11,7 +11,10 @@
     "sourceMap": true,
     "baseUrl": "src",
     "paths": {
-      "@store/*": ["store/*"]
+      "@store/*": ["store/*"],
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"]
     }
   }
 }

@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
-import { customStore } from './../store/customStore.js';
 import { view } from 'z-preact-easy-state';
+import { customStore } from '@store/customStore';
 
 class Test extends Component {
   render() {

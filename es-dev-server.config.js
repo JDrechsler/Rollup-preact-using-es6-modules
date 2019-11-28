@@ -4,5 +4,6 @@ module.exports = {
   nodeResolve: false,
   appIndex: 'index.html',
   http2: true,
-  open: true
+  open: true,
+  compatibility: 'none'
 };
