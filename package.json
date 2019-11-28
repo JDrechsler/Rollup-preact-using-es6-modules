@@ -1,5 +1,5 @@
 {
-  "name": "buildless",
+  "name": "rolluptests",
   "version": "1.0.0",
   "description": "Testing out rollup's module output",
   "main": "index.js",
