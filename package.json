@@ -1,10 +1,9 @@
 {
   "name": "buildless",
   "version": "1.0.0",
-  "description": "Use pika cdn to pull new es6modules, node_modules are only used for typings",
+  "description": "Testing out rollup's module output",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc -w",
     "dev": "rollup -c --watch"
   },
   "author": "JDrechslerUS",
